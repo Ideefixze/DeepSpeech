@@ -21,9 +21,9 @@ Adjusting the boosting value
 
 For hot-word boosting it is hard to determine what the optimal value that one might be searching for is. Additionally, this is dependant on the input audio file. In practice, as it was reported by DeepSpeech users, the value should be not bigger than 20.0 for positive value boosting. W Nevertheless, each usecase is different and you might need to adjust values on your own.
 
-There is a user contributed script available on separate repository for adjusting boost values:
+There is a user contributed script available on ``DeepSpeech-examples`` repository for adjusting boost values:
 
-`https://github.com/Ideefixze/deepspeech-hot-words-booster <https://github.com/Ideefixze/deepspeech-hot-words-booster>`_.
+`https://github.com/mozilla/DeepSpeech-examples/tree/master/hotword_adjusting <https://github.com/mozilla/DeepSpeech-examples/tree/master/hotword_adjusting>`_.
 
 
 Positive value boosting
